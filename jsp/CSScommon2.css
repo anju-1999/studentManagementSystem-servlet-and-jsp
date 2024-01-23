@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+td {
+	padding-bottom: 8px;
+}
+
+td:nth-child(even) {
+	width: 400px;
+}
+
+td:nth-child(odd) {
+	width: 200px;
+	padding-top: 10px;
+}
+
+input[type=text], select {
+	box-sizing: border-box;
+	height: 30px;
+	width: 70%;
+}
+
+input[type=date] {
+	height: 30px;
+	width: 34%;
+}
+
+div {
+	justify-content: center;
+	display: flex;
+	margin: auto;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	right: 5%;
+	bottom: 20%;
+}
+
+input[type=submit], input[type=reset] {
+	width: 35%;
+	background-color: #00573F;
+	color: white;
+	height: 40px;
+	cursor: pointer;
+}
+
+
+
+body, html {
+	height: 100%;
+}
